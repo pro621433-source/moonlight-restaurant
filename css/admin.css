@@ -1,0 +1,7 @@
+/* Style minimal pour la page admin (Netlify CMS gère le reste) */
+body {
+    background: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}

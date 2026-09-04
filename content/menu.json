@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Bruschetta",
+    "price": 2500,
+    "category": "entrees",
+    "desc": "Pain grillé, tomates, basilic, huile d'olive",
+    "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69a?w=300"
+  },
+  {
+    "name": "Poulet Divin",
+    "price": 5500,
+    "category": "plats",
+    "desc": "Mariné 24h, grillé, sauce secrète",
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=300"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "price": 4500,
+    "category": "plats",
+    "desc": "Pâtes, œuf, pancetta, parmesan",
+    "image": "https://images.unsplash.com/photo-1645112411342-9669d34b7b0f?w=300"
+  },
+  {
+    "name": "Mix Grillade",
+    "price": 7500,
+    "category": "grillades",
+    "desc": "Assortiment de viandes grillées",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300"
+  },
+  {
+    "name": "Tiramisu",
+    "price": 3000,
+    "category": "desserts",
+    "desc": "Mascarpone, café, cacao",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300"
+  },
+  {
+    "name": "Mojito",
+    "price": 2000,
+    "category": "boissons",
+    "desc": "Rhum, menthe, citron vert",
+    "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?w=300"
+  }
+]
