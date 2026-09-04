@@ -3,14 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin - Moonlight</title>
+    <title>Admin - Moonlight CMS</title>
+    <!-- Netlify Identity Widget -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- FORCER LE CHEMIN VERS CONFIG.YML -->
     <script>
-        // Forcer le chemin vers config.yml
         window.CMS_CONFIG_PATH = '/admin/config.yml';
     </script>
 </head>
 <body>
+    <!-- Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
 </body>
 </html>
