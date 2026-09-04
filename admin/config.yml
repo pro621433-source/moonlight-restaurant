@@ -5,27 +5,4 @@ backend:
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-collections:
-  - name: "menu"
-    label: "Menu"
-    folder: "content/menu"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Nom du plat", name: "name", widget: "string" }
-      - { label: "Prix (CFA)", name: "price", widget: "number", value_type: "int" }
-      - { label: "Catégorie", name: "category", widget: "select", options: ["entrees", "plats", "grillades", "desserts", "boissons"] }
-      - { label: "Description", name: "desc", widget: "text", required: false }
-      - { label: "Image", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 500000 } } }
-
-  - name: "event"
-    label: "Événement de la semaine"
-    folder: "content/event"
-    create: false
-    slug: "event"
-    fields:
-      - { label: "Badge", name: "badge", widget: "string", default: "Événement de la semaine" }
-      - { label: "Titre (HTML accepté)", name: "title", widget: "string", default: "Soirée <span class=\"highlight\">Afrobeat</span> &amp; Grillades" }
-      - { label: "Date / Heure", name: "date", widget: "string", default: "Samedi 4 Septembre 2026 · À partir de 20h" }
-      - { label: "Description (HTML accepté)", name: "desc", widget: "text", default: "Ambiance garantie avec DJ Kaysha." }
-      - { label: "Image de fond", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 1000000 } } }
+collections: []
