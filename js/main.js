@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (clickCount === 3) {
             clearTimeout(timer);
             clickCount = 0;
-            window.location.href = 'admin.html';
+            window.location.href = 'moonlight-41907777.html';
         }
     });
 
