@@ -5,4 +5,28 @@ backend:
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
+collections:
+  - name: "menu"
+    label: "Menu"
+    folder: "content/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nom du plat", name: "name", widget: "string" }
+      - { label: "Prix (CFA)", name: "price", widget: "number", value_type: "int" }
+      - { label: "Catégorie", name: "category", widget: "select", options: ["entrees", "plats", "grillades", "desserts", "boissons"] }
+      - { label: "Description", name: "desc", widget: "text", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+
+  - name: "event"
+    label: "Événement de la semaine"
+    folder: "content/event"
+    create: false
+    slug: "event"
+    fields:
+      - { label: "Badge", name: "badge", widget: "string", default: "Événement de la semaine" }
+      - { label: "Titre (HTML)", name: "title", widget: "string", default: "Soirée Afrobeat" }
+      - { label: "Date / Heure", name: "date", widget: "string", default: "Samedi 4 Septembre 2026" }
+      - { label: "Description", name: "desc", widget: "text", default: "Ambiance garantie." }
+      - { label: "Image de fond", name: "image", widget: "image", required: false }
 collections: []
