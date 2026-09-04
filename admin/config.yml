@@ -29,4 +29,3 @@ collections:
       - { label: "Date / Heure", name: "date", widget: "string", default: "Samedi 4 Septembre 2026" }
       - { label: "Description", name: "desc", widget: "text", default: "Ambiance garantie." }
       - { label: "Image de fond", name: "image", widget: "image", required: false }
-collections: []
